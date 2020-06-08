@@ -103,7 +103,7 @@ public class WarmUp {
 		return sb.toString().toLowerCase();
 	}
 	
-	private static String generatePassword( String fName, String lName) {
+	private static String generatePassword ( String fName, String lName) {
 		StringBuilder sb = new StringBuilder();
 		sb.append(fName).append(".").append(lName).append("123");
 		return sb.toString();
